@@ -51,7 +51,7 @@ float bobinaparalelo ()
 
     {
         bobinatotalparalelo=1/bobinatotalparalelo;
-        cout<<"Introduce la capacidad de las bobinas(En henrios) "<<cuenta+1<<"."<<endl;
+        cout<<"Introduce la inductancia de las bobinas(En henrios) "<<cuenta+1<<"."<<endl;
         cin>>bobinas[cuenta];
         bobinatotalparalelo+=1/bobinas[cuenta];
     }
@@ -68,7 +68,7 @@ float bobinaserie ()
     float bobinas[numerodebobinas];
     for(int cuenta=0; cuenta<numerodebobinas; cuenta++)
     {
-        cout<<"Introduce la capacidad de las bobinas (En henrios) "<<cuenta+1<<"."<<endl;
+        cout<<"Introduce la inductancia de las bobinas (En henrios) "<<cuenta+1<<"."<<endl;
         cin>>bobinas[cuenta];
         bobinatotalserie+=bobinas[cuenta];
     }
